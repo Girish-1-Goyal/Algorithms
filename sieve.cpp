@@ -49,7 +49,7 @@ void sieve(int &n){
     }
     for(int i = 2; i < n; ++i){
         if(arr[i] == true){
-            cout << "" << "\n";
+            cout << i << " " << "\n";
         }
     }
 }
